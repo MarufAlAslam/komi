@@ -1,0 +1,329 @@
+@font-face {
+    font-family: "sfPro", sans-serif;
+    src: url('../fonts/SFPRODISPLAYREGULAR.OTF');
+}
+
+@font-face {
+    font-family: "sfPro-medium", sans-serif;
+    src: url('../fonts/SFPRODISPLAYMEDIUM.OTF');
+}
+
+@font-face {
+    font-family: "sfPro-bold", sans-serif;
+    src: url('../fonts/SFPRODISPLAYBOLD.OTF');
+}
+
+* {
+    font-family: "sfPro", sans-serif;
+}
+
+.fw-bold {
+    font-family: "sfPro-bold", sans-serif;
+}
+
+.fw-medium {
+    font-family: "sfPro-medium", sans-serif;
+}
+
+.header {
+    background: url("../img/background-top.png");
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    padding-top: 90px !important;
+}
+
+.navLink {
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    line-height: 24px;
+    color: white !important;
+}
+
+.nav-link.btn.btn-light.text-dark.rounded-pill {
+    margin-left: 30px !important;
+    font-weight: 600;
+    height: 40px;
+    width: 140px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-fluid.logo {
+    position: relative;
+    top: -2px;
+}
+
+.navbar.navbar-expand-lg.bg-transparent.navbar-dark.fixed-top {
+    padding: 20px 0 !important;
+}
+
+.color-blend {
+    font-weight: 700 !important;
+    font-size: 72px;
+    line-height: 86px;
+    color: #e0e0e0 !important;
+    mix-blend-mode: color-dodge;
+    opacity: .8;
+}
+
+.hero {
+    padding: 20px 0 !important;
+}
+
+.fs-20 {
+    font-size: 20px;
+}
+
+.btn-light-1 {
+    padding: 16px;
+    width: 253px;
+    height: 52px;
+    background-color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.customize {
+    background: url("../img/customize.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.fs-40 {
+    font-size: 40px;
+}
+
+.customize {
+    padding-top: 150px;
+    /* padding-bottom: 50px; */
+}
+
+.img-fluid.csImg {
+    width: 65%;
+    display: block;
+    margin: auto;
+    position: relative;
+    top: -30px;
+    margin-bottom: -30px;
+}
+
+.landingBtn.active {
+    font-weight: 600 !important;
+    font-size: 20px;
+    line-height: 28px;
+    opacity: 1;
+    background: hsla(0, 0%, 100%, .1);
+    border-radius: 12px;
+}
+
+.landingBtn {
+    display: block;
+}
+
+.py-100 {
+    padding: 100px 0;
+}
+
+.partner {
+    background: url("../img/background-partner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    position: relative;
+    z-index: 10;
+}
+
+/* .partner::before {
+    content: '';
+    background: url("../img/background-analytic.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+} */
+
+img {
+    transition: 0.5s;
+}
+
+.slick-center img,
+.slick-center .card-body {
+    transform: scale(1.2);
+    bottom: -15px !important;
+}
+
+.slider .card {
+    background-color: transparent !important;
+    border: unset !important;
+}
+
+.slick-prev.slick-arrow {
+    position: absolute;
+    z-index: 1;
+    left: -430px;
+    top: 180px;
+    font-size: 30px !important;
+    transform: scale(1.2);
+}
+
+.slick-next.slick-arrow {
+    position: absolute;
+    z-index: 1;
+    left: -380px;
+    top: 180px;
+    font-size: 30px !important;
+    transform: scale(1.2);
+}
+
+.fs-18 {
+    font-size: 18px;
+}
+
+.fs-14 {
+    font-size: 14px;
+}
+
+.card-body.position-absolute.bottom-0.left-0.w-100.bg-dark {
+    background: rgba(0, 0, 0, 0.7) !important;
+    text-align: center;
+}
+
+.card-body {
+    transition: 0.5s;
+}
+
+.analytic {
+    background: url("../img/background-analytic.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    margin-top: -300px;
+    /* margin-bottom: -300px; */
+    padding-top: 300px !important;
+}
+
+.analytic .container {
+    position: relative;
+    z-index: 200000;
+}
+
+.emp {
+    background: url("../img/footer.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    margin-top: -200px;
+    padding-top: 250px;
+    z-index: 10000;
+    position: relative;
+}
+
+.fs-50 {
+    font-size: 50px;
+}
+
+.btn-light-1:hover {
+    border: 1px solid #fff;
+    color: white;
+}
+
+.footer {
+    background-color: #000000 !important;
+}
+
+.footer .col {
+    flex: 0 0 auto;
+    max-width: 20%;
+}
+
+.footer li {
+    line-height: 3;
+}
+
+.analytic.py-100 .row.g-4 .card-body {
+    padding: 25px !important;
+}
+
+.analytic.py-100 .row.g-4 .card {
+    border-radius: 30px !important;
+    overflow: hidden;
+}
+
+.emp.py-100 h2.fw-bold {
+    font-weight: 400 !important;
+}
+
+.navbar.active {
+    background: rgba(0, 0, 0, 0.5) !important;
+}
+
+
+@media screen and (max-width: 767px) {
+    h1.color-blend {
+        font-size: 40px;
+        line-height: 1;
+        text-align: center;
+    }
+
+    .btn.btn-light-1 {
+        margin: auto;
+        font-size: 14px;
+        height: 40px;
+        width: 200px;
+    }
+
+    .hero p {
+        font-size: 14px;
+        /* empty-cells: ; */
+        text-align: center;
+    }
+
+    /* * {
+        text-align: center;
+    } */
+
+    .fs-40 {
+        font-size: 25px;
+    }
+
+    .landingBtn.active {
+        font-weight: 600 !important;
+        font-size: 16px;
+        line-height: 28px;
+        opacity: 1;
+        background: hsla(0, 0%, 100%, .1);
+        border-radius: 12px;
+    }
+
+    .fs-50 {
+        font-size: 30px;
+    }
+
+    .footer .col {
+        flex: 0 0 auto;
+        max-width: 100%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navbar.navbar-expand-lg.bg-transparent.navbar-dark.fixed-top {
+        background: rgba(0, 0, 0, 0.5) !important;
+        text-align: center !important;
+    }
+}
