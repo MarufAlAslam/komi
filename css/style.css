@@ -114,6 +114,17 @@
     margin-bottom: -30px;
 }
 
+.cs1Img,
+.cs2Img,
+.cs3Img,
+.cs4Img {
+    display: none !important;
+}
+
+.csImg.active {
+    display: block !important;
+}
+
 .landingBtn.active {
     font-weight: 600 !important;
     font-size: 20px;

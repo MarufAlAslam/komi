@@ -44,3 +44,28 @@ $(window).on("scroll", function () {
         $(".navbar").removeClass("active");
     }
 });
+
+
+
+// let count = 1;
+$('.landingBtn').click(function () {
+    $('.landingBtn').removeClass('active');
+    $(this).addClass('active');
+})
+
+$('.landingBtn1').click(function () {
+    $('.csImg').removeClass('active');
+    $('.cs1Img').addClass('active')
+})
+$('.landingBtn2').click(function () {
+    $('.csImg').removeClass('active')
+    $('.cs2Img').addClass('active')
+})
+$('.landingBtn3').click(function () {
+    $('.csImg').removeClass('active')
+    $('.cs3Img').addClass('active')
+})
+$('.landingBtn4').click(function () {
+    $('.csImg').removeClass('active')
+    $('.cs4Img').addClass('active')
+})
