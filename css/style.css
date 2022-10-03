@@ -271,6 +271,31 @@ img {
 }
 
 
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 10300000000;
+}
+
+.modal {
+    z-index: 10000000000000000000000000000;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.badge.bg-lignt {
+    background: #F4F3F3;
+    color: black;
+    font-size: 14px;
+    padding: 10px;
+    font-weight: 400 !important;
+}
+
+.img-fluid.logo {
+    width: 150px;
+}
+
 @media screen and (max-width: 767px) {
     h1.color-blend {
         font-size: 40px;
